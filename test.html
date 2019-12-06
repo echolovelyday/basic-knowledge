@@ -50,6 +50,9 @@ function debounce (func, wait = 50, immediate = true) {
     }
   }
 }
+    function sayHi() {
+      console.log('防抖成功');
+    }
     var inp = document.getElementById('inp');
     inp.addEventListener('input', debounce(sayHi)); // 防抖
         </script>
